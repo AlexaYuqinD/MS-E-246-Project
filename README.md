@@ -30,12 +30,16 @@ categorical:
 * dummy: add 
 * missing: add 
 * add: Unemployment, GSP, Zip-housing price
+* date: change to continuous
 * add the difference: 
 1. log(GSP) in the borrower state and year (from BEA)
 2. log(S&P500) on the loan approval date
 3. Unemployment rate in the borrower state and year (from BLS) 
 4. Unemployment rate in the project state and year (from BLS) 
 
+* total amount: gross approval + 3rd party dollars = total loan amount.
+There are loans whose charge off amount is greater than the gross approval amount. In order to deal with that please read the quote from professor Giesecke:
+"Here's a clarification regarding the meaning of the fields "Third Party Dollars" and "Gross Approval" in the data for the project.With 504 loans, there are two sources of funding. There is a CDC (Community Development Corporation) that sponsors the loan. The CDC the finds a bank to contribute funds to cover a portion of the loan. The CDC issues bonds to fund its lending, and these bonds are guaranteed by the SBA. So that is how the SBA guarantee works for the 504 program (fairly different in mechanism to how the guarantee works for the 7a program, which we discussed in class). Thus, the "third party dollars" and other terms relating to third party in the 504 program refer to how much money is contributed by the partner bank, and also then to how much of the loan value is not guaranteed by the SBA.
 
 ## Selecting variables/penalty
 * ridge
