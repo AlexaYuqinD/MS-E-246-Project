@@ -29,6 +29,12 @@ categorical:
 * normalization
 * dummy: add 
 * missing: add 
+* add: Unemployment, GSP, Zip-housing price
+* add the difference: 
+1. log(GSP) in the borrower state and year (from BEA)
+2. log(S&P500) on the loan approval date
+3. Unemployment rate in the borrower state and year (from BLS) 
+4. Unemployment rate in the project state and year (from BLS) 
 
 
 ## Selecting variables/penalty
@@ -64,7 +70,6 @@ categorical:
 2. deep learning, LSTM model 
 3. end of observation perioid: 
 choose the end of observation date to be the last day of your data: compare with the latest charge-off day with the latest issue day of new loan, and take the later day as the last day of data.
-
 For those very late loans which starts say only one year before the last day of your data I recommend just delete 
 
 4. Preprocesssing:
