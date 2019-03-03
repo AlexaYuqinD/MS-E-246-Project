@@ -81,6 +81,10 @@ centering and scaling continuous variables
 
 5. date should be transformed into a continuous duration variable. 
 6. approval fiscal year: It could potentially be categorical but you need to make sure there won't be new categories in your test set that were not in you training set. 
+7. An investor who has bought a [5%, 15%] tranche: This designates the attachment points of a tranche: the investor starts being exposed to losses if they reach 5% of the total, and stops being exposed if they reach 15% of the total. 
+- if x < 5%: nothing happens
+- if 5% < x < 15%: then the mezzanine tranche will get a loss in excess of 5% which means a loss equal to x-5%
+- if x > 15%: then the mezzanine tranche will get a loss of 10% (15% - 5%) and the senior tranche will get the remaining loss in excess of 15%, i.e x - 15%
 
 ### Paper
 1. James, Witten, Hastie & Tibshirani (2013) 
