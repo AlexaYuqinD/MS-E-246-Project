@@ -86,6 +86,14 @@ centering and scaling continuous variables
 - if 5% < x < 15%: then the mezzanine tranche will get a loss in excess of 5% which means a loss equal to x-5%
 - if x > 15%: then the mezzanine tranche will get a loss of 10% (15% - 5%) and the senior tranche will get the remaining loss in excess of 15%, i.e x - 15%
 
+8. when we are estimating the distribution of total loss on a portfolio of 500 randomly selected loan over one and five year periods, how are we defining the 1/5 year time horizon? 
+When does the 1/5 year time horizon start and end? Do we apply the hazard model to our loss dataset and at 1 year, we say all the loans to the left of the 1 year cut off are the loans that have defaulted and calculate the loss? 
+Answer: Here’s my crude understanding - please correct me if I’m wrong. Look at the last year of the dataset (end of sample period). Randomly select 500 of all loans still living then. Use hazard model to simulate default times. If time to default < 1 then tally the losses of those loans. Repeat for default times < 5. 
+
+9. are you predicting loss of those loans through a regression model? if the loans are you selecting are still alive, the wouldn't have any gross charge off correct? 
+Yes, you need to train a second model that would predict a loss amount or percentage given a defaulted loan.
+
+
 ### Paper
 1. James, Witten, Hastie & Tibshirani (2013) 
 
