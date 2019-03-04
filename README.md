@@ -1,35 +1,74 @@
 # MS-E-246-Project
+## Data Exploration&Visualization
+- explore the data set: maybe some plots?
+
 ## Variables
-continuous:
+complex model(DNN etc.): let the model choose the form of transformation; simple model: take log, etc.
+
+1. continuous: (5)
+- ThirdPartyDollars
+- GrossApproval: Total loan amount (need to add log)
+- InitialInterestRate: Initial interest rate - total interest rate (base rate plus spread) at time loan was approved
+- TermInMonths: Length of loan term
+- GrossChargeOffAmount
+
+Things to add/change: 
 - log(Gross approval)
-- log(SBA guaranteed approval)
-- Term in months
-- Age of loan
 - log(GSP) in the borrower state and year (from BEA)
 - log(S&P500) on the loan approval date
 - Unemployment rate in the borrower state and year (from BLS) 
 - Unemployment rate in the project state and year (from BLS) 
+- difference: add difference of the last 4
 
-1. add the differences: log(GSP) in the borrower state and year (from BEA), log(S&P500) on the loan approval date,  Unemployment rate in the borrower state and year (from BLS), Unemployment rate in the project state and year (from BLS) 
-2. complex model: let the model choose the form of transformation; simple model: take log, etc. 
+- ？Age of loan
 
-categorical:
-- Business type (Corporation, Individual, Partnership) 
-- 2-digit NAICS code
-- Delivery method 
-- Indicator: Term an integer multiple of a year 
-- Indicator: Repeat borrower
-- Indicator: Bank state 6= borrower state
-- Indicator: Project state 6= borrower state 
-- Approval fiscal year (from 1990 to 2014) 
-- Borrower state 
+
+2. categorical: (24)
+- Program: whether loan was approved under 7a/504 loan program
+- BorrName: Name of borrower
+- BorrStreet: Borrower street address
+- BorrCity: Borrower city
+- BorrState: Borrower state
+- BorrZip: Borrower zip code
+- CDC_Name: name of CDC
+- CDC_Street: CDC street address
+- CDC_City: CDC city
+- CDC_State: CDC state
+- CDC_Zip: CDC zip code
+- ThirdPartyLender_Name
+- ThirdPartyLender_City
+- ThirdPartyLender_State
+- ApprovalDate: Date the loan was approved
+- ApprovalFiscalYear: Fiscal year the loan was approved
+- DeliveryMethod: Specific delivery method loan was approved under
+- subpgmdesc: Subprogram description - specific subprogram loan was approved under
+- NaicsCode: North American Industry Classification System (NAICS) code (specifying industry)
+- NaicsDescription: NAICS description
+- ProjectCounty: County where project occurs
+- ProjectState: State where project occurs
+- BusinessType: Borrower Business Type - Individual, Partnership, or Corporation
+- ChargeOffDate: Total loan balance charged off (includes guaranteed and non-guaranteed portion of loan)
+
+Things to add/change: 
+- ？indicator: Term not an integer multiple of a year
+- ？borrower state != CDC state
+- ？borrower state != ThirdPartyLender_State
+- ？borrower state != Project state
+
+
+3. Outcome: (1)
+- LoanStatus: Current status of loan
+
+
 
 ## Pre-processsing
-* add time-varying risk factors at the regional level: 
+* add time-varying risk factors at the regional level: GSP, Unemployment Rate, S&P 500 
 * partitioning: 70%train, 10% validation, 20% test
-* normalization
+  - random partitioning
+  - or: take the most recent observations as test cases
+* normalization: normalize the continuous variables
 * dummy: add 
-* missing: add 
+* missing: encode missing values of explanatory variables by indicator variables
 * add: Unemployment, GSP, Zip-housing price
 * date: change to continuous
 * add the difference: 
@@ -47,10 +86,12 @@ There are loans whose charge off amount is greater than the gross approval amoun
 * lasso
 * elastic net
 * bagging
+- select the penalty weight: AUC on validation set
+Coefficient estimates are biased in the presence of penalty and missing value terms; standard errors could be found by bootstrapping
 
 ## Model
 * logistic regression
-* hazard models 
+* hazard models (model the timing of event, in influence of time-variation of X)
 * neural networks
 
 ## Prediction
@@ -59,7 +100,8 @@ There are loans whose charge off amount is greater than the gross approval amoun
 
 ## Measuring predictive performance
 * In an out of sample
-* ROC curve
+* Confusion Matrix
+* ROC curve, AUC(both training and test)
 
 ## Explanation
 * the fitting results
@@ -67,8 +109,13 @@ There are loans whose charge off amount is greater than the gross approval amoun
 * important variables
 
 ## Estimate loss 
-* estimate the distribution of total loss on a portfolio of 500 randomly selected loans  over one and five year periods (state the loan selection method). Measure the risk in terms of the VaR and the Average VaR (also known as expected shortfall) at the 95% and 99% levels (include confidence bands for your estimates). 
+* build a model for the loss at default: E(l |Default, X), is the empirical mean of the realized loss given default
+* estimate the distribution of total loss on a portfolio of 500 randomly selected loans over one and five year periods (state the loan selection method). Measure the risk in terms of the VaR and the Average VaR (also known as expected shortfall) at the 95% and 99% levels (include confidence bands for your estimates). 
 * Finally, estimate the distributions for the one and five year losses of an investor who has bought a [5%,15%] tranche backed by the chosen portfolio. Also consider a [15%, 100%] senior tranche. Interpret and compare the distributions from a risk management perspective. 
+
+## Results
+* Write up a final report, detailing your models, statistical estimation approaches, tests, and results to the extent that the results could be replicated.
+* Presentation: PPT
 
 ### Piazza notes
 1. macroecon variables: you can include both the amount and return
@@ -96,6 +143,6 @@ Yes, you need to train a second model that would predict a loss amount or percen
 
 
 ### Paper
-1. James, Witten, Hastie & Tibshirani (2013) 
+1. Intro to classification problem: James, Witten, Hastie & Tibshirani (2013) 
 
 
