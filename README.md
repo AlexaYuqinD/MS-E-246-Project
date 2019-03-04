@@ -25,6 +25,7 @@ categorical:
 - Borrower state 
 
 ## Pre-processsing
+* add time-varying risk factors at the regional level: 
 * partitioning: 70%train, 10% validation, 20% test
 * normalization
 * dummy: add 
