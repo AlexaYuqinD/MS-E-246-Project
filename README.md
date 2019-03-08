@@ -1,4 +1,33 @@
 # MS-E-246-Project
+## Tasks to do before Weekend:
+1. Preprocessing 
+- difference: add difference of: gsp, s&p 500, unemploy_borr, unemploy_proj
+- indicator: Term not an integer multiple of a year
+- borrower state != CDC state
+- Total loan amount
+- date: continuous
+
+2. over sampling
+3. cross validation: logit-regularization, DNN 
+4. bagging
+   - random forest
+5. RNN-LSTM
+6. Regression 
+7. plot
+8. PPT
+9. VaR
+
+
+Yuqin:
+1,2,3,4
+Yunru:
+7,8,9
+Jiaying:
+3,5
+
+
+
+
 ## Data Exploration&Visualization
 - explore the data set: maybe some plots?
 
