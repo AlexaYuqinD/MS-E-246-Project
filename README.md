@@ -2,6 +2,7 @@
 ## Data Exploration&Visualization
 - explore the data set: maybe some plots?
 
+
 ## Variables
 complex model(DNN etc.): let the model choose the form of transformation; simple model: take log, etc.
 
@@ -62,6 +63,7 @@ Things to add/change:
 
 
 ## Pre-processsing
+* over-sampling: treat unbalanced data 
 * add time-varying risk factors at the regional level: GSP, Unemployment Rate, S&P 500 
 * partitioning: 70%train, 10% validation, 20% test
   - random partitioning
