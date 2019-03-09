@@ -64,7 +64,7 @@ def initialize_parameters(params = [100,50,2]):
     p1 = params[0]
     p2 = params[1]
     p3 = params[2]
-    W1 = tf.get_variable("W1", [p1,32], initializer = tf.contrib.layers.xavier_initializer())
+    W1 = tf.get_variable("W1", [p1,34], initializer = tf.contrib.layers.xavier_initializer())
     b1 = tf.get_variable("b1", [p1,1], initializer = tf.zeros_initializer())
     W2 = tf.get_variable("W2", [p2, p1], initializer = tf.contrib.layers.xavier_initializer())
     b2 = tf.get_variable("b2", [p2, 1], initializer = tf.zeros_initializer())
