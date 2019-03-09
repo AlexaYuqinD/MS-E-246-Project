@@ -60,14 +60,16 @@ def create_placeholder(n_x,n_y):
 
 
 #initialize parameter
-def initialize_parameters():
-    
-    W1 = tf.get_variable("W1", [100,32], initializer = tf.contrib.layers.xavier_initializer())
-    b1 = tf.get_variable("b1", [100,1], initializer = tf.zeros_initializer())
-    W2 = tf.get_variable("W2", [50, 100], initializer = tf.contrib.layers.xavier_initializer())
-    b2 = tf.get_variable("b2", [50, 1], initializer = tf.zeros_initializer())
-    W3 = tf.get_variable("W3", [2, 50], initializer = tf.contrib.layers.xavier_initializer())
-    b3 = tf.get_variable("b3", [2, 1], initializer = tf.zeros_initializer())
+def initialize_parameters(params = [100,50,2]):
+    p1 = params[0]
+    p2 = params[1]
+    p3 = params[2]
+    W1 = tf.get_variable("W1", [p1,32], initializer = tf.contrib.layers.xavier_initializer())
+    b1 = tf.get_variable("b1", [p1,1], initializer = tf.zeros_initializer())
+    W2 = tf.get_variable("W2", [p2, p1], initializer = tf.contrib.layers.xavier_initializer())
+    b2 = tf.get_variable("b2", [p2, 1], initializer = tf.zeros_initializer())
+    W3 = tf.get_variable("W3", [p3, p2], initializer = tf.contrib.layers.xavier_initializer())
+    b3 = tf.get_variable("b3", [p3, 1], initializer = tf.zeros_initializer())
 
     
     parameters = {"W1": W1,
@@ -118,7 +120,7 @@ def regulizer(parameters):
     return tf.nn.l2_loss(W1) + tf.nn.l2_loss(W2) + tf.nn.l2_loss(W3)
 
 def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001, lamb = 0.01,
-          num_epochs = 500, minibatch_size = 512, keep_prob = 1, print_cost = True):
+          num_epochs = 500, minibatch_size = 512, keep_prob = 1, print_cost = True, params = [100,50,2]):
     
     ops.reset_default_graph()                         # to be able to rerun the model without overwriting tf variables
     (n_x, m) = X_train.shape                         # (n_x: input size, m : number of examples in the train set)
@@ -128,7 +130,7 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001, lamb = 0.01,
     X, Y = create_placeholder(n_x, n_y)
    
     # Initialize parameters
-    parameters = initialize_parameters()
+    parameters = initialize_parameters(params)
     
     
     # Forward propagation: Build the forward propagation in the tensorflow graph
