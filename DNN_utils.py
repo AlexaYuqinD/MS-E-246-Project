@@ -60,11 +60,11 @@ def create_placeholder(n_x,n_y):
 
 
 #initialize parameter
-def initialize_parameters(params = [100,50,2]):
+def initialize_parameters(num,params = [100,50,2]):
     p1 = params[0]
     p2 = params[1]
     p3 = params[2]
-    W1 = tf.get_variable("W1", [p1,34], initializer = tf.contrib.layers.xavier_initializer())
+    W1 = tf.get_variable("W1", [p1,num], initializer = tf.contrib.layers.xavier_initializer())
     b1 = tf.get_variable("b1", [p1,1], initializer = tf.zeros_initializer())
     W2 = tf.get_variable("W2", [p2, p1], initializer = tf.contrib.layers.xavier_initializer())
     b2 = tf.get_variable("b2", [p2, 1], initializer = tf.zeros_initializer())
@@ -119,7 +119,7 @@ def regulizer(parameters):
     W3 = parameters['W3']
     return tf.nn.l2_loss(W1) + tf.nn.l2_loss(W2) + tf.nn.l2_loss(W3)
 
-def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001, lamb = 0.01,
+def model(X_train, Y_train, X_test, Y_test, num,learning_rate = 0.0001, lamb = 0.01,
           num_epochs = 500, minibatch_size = 512, keep_prob = 1, print_cost = True, params = [100,50,2]):
     
     ops.reset_default_graph()                         # to be able to rerun the model without overwriting tf variables
@@ -130,7 +130,7 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001, lamb = 0.01,
     X, Y = create_placeholder(n_x, n_y)
    
     # Initialize parameters
-    parameters = initialize_parameters(params)
+    parameters = initialize_parameters(num,params)
     
     
     # Forward propagation: Build the forward propagation in the tensorflow graph
