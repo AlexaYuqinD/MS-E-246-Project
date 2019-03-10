@@ -11,13 +11,13 @@
 
 4. 画PPT
 
-3. DNN: 1)loan age; 2)drop loans which start late
-1)choose the end of observation date to be the last day of your data: compare with the latest charge-off day with the latest issue day of new loan, and take the later day as the last day of data.
-
-2)For those very late loans which starts say only one year before the last day of your data I recommend just delete 
-
+5. DNN: 1)loan age; 2)drop loans which start late
+   - choose the end of observation date to be the last day of your data: compare with the latest charge-off day with the latest issue day of new loan, and take the later day as the last day of data.
+   - For those very late loans which starts say only one year before the last day of your data I recommend just delete 
+   
 4. bagging
    - random forest
+   
 5. RNN-LSTM
 
 6. ? date should be transformed into a continuous duration variable. 
