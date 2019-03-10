@@ -1,9 +1,9 @@
 # MS-E-246-Project
 ## Tasks to do before Weekend:
 1. Preprocessing 
-- difference: add difference of: gsp, s&p 500, unemploy_borr, unemploy_proj
-- Total loan amount
-- date: continuous
+   - difference: add difference of: gsp, s&p 500, unemploy_borr, unemploy_proj
+   - Total loan amount
+   - date: continuous
 
 2. VaR: 课件, piazza
 
