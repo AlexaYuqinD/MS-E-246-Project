@@ -60,7 +60,7 @@ def create_placeholder(n_x,n_y):
 
 
 #initialize parameter
-def initialize_parameters(num,params = [100,50,2]):
+def initialize_parameters(num,params = [100,50,2],layer = 3):
     p1 = params[0]
     p2 = params[1]
     p3 = params[2]
@@ -70,29 +70,51 @@ def initialize_parameters(num,params = [100,50,2]):
     b2 = tf.get_variable("b2", [p2, 1], initializer = tf.zeros_initializer())
     W3 = tf.get_variable("W3", [p3, p2], initializer = tf.contrib.layers.xavier_initializer())
     b3 = tf.get_variable("b3", [p3, 1], initializer = tf.zeros_initializer())
+    
+    if layer == 4:
+        p4 = params[3]
+        W4 = tf.get_variable("W4", [p4, p3], initializer = tf.contrib.layers.xavier_initializer())
+        b4 = tf.get_variable("b4", [p4, 1], initializer = tf.zeros_initializer())        
+        parameters = {"W1": W1,
+                      "b1": b1,
+                      "W2": W2,
+                      "b2": b2,
+                      "W3": W3,
+                      "b3": b3,
+                      "W4": W4,
+                      "b4": b4}    
+    else:
+        parameters = {"W1": W1,
+                      "b1": b1,
+                      "W2": W2,
+                      "b2": b2,
+                      "W3": W3,
+                      "b3": b3}
 
-    
-    parameters = {"W1": W1,
-                  "b1": b1,
-                  "W2": W2,
-                  "b2": b2,
-                  "W3": W3,
-                  "b3": b3}
-    
     return parameters
 
 
 
 
 #Forward Propogation
-def forward_propagation(X, parameters, keep_prob = 1):
+def forward_propagation(X, parameters, keep_prob = 1,layer=3):
     W1 = parameters['W1']
     b1 = parameters['b1']
     W2 = parameters['W2']
     b2 = parameters['b2']
     W3 = parameters['W3']
     b3 = parameters['b3']
-    
+    if layer == 4:
+        W4 = parameters['W4']
+        b4 = parameters['b4']  
+        Z1 = tf.add(tf.matmul(W1,X),b1)                                               
+        A1 = tf.nn.dropout(tf.nn.relu(Z1), keep_prob)                                              
+        Z2 = tf.add(tf.matmul(W2,A1),b2)                                             
+        A2 = tf.nn.dropout(tf.nn.relu(Z2), keep_prob)                                             
+        Z3 = tf.add(tf.matmul(W3,A2),b3)       
+        A3 = tf.nn.dropout(tf.nn.relu(Z3), keep_prob)                                             
+        Z4 = tf.add(tf.matmul(W4,A3),b4)    
+        return Z4
     Z1 = tf.add(tf.matmul(W1,X),b1)                                               
     A1 = tf.nn.dropout(tf.nn.relu(Z1), keep_prob)                                              
     Z2 = tf.add(tf.matmul(W2,A1),b2)                                             
@@ -113,14 +135,17 @@ def compute_cost(Z3,Y):
     
     return cost
 
-def regulizer(parameters):
+def regulizer(parameters,layer=3):
     W1 = parameters['W1']
     W2 = parameters['W2']
     W3 = parameters['W3']
+    if layer == 4:
+        W4 = parameters['W4']        
+        return tf.nn.l2_loss(W1) + tf.nn.l2_loss(W2) + tf.nn.l2_loss(W3) + tf.nn.l2_loss(W4)
     return tf.nn.l2_loss(W1) + tf.nn.l2_loss(W2) + tf.nn.l2_loss(W3)
 
 def model(X_train, Y_train, X_test, Y_test, num,learning_rate = 0.0001, lamb = 0.01,
-          num_epochs = 500, minibatch_size = 512, keep_prob = 1, print_cost = True, params = [100,50,2]):
+          num_epochs = 500, minibatch_size = 512, keep_prob = 1, print_cost = True, params = [100,50,2],layer=3):
     
     ops.reset_default_graph()                         # to be able to rerun the model without overwriting tf variables
     (n_x, m) = X_train.shape                         # (n_x: input size, m : number of examples in the train set)
@@ -130,14 +155,14 @@ def model(X_train, Y_train, X_test, Y_test, num,learning_rate = 0.0001, lamb = 0
     X, Y = create_placeholder(n_x, n_y)
    
     # Initialize parameters
-    parameters = initialize_parameters(num,params)
+    parameters = initialize_parameters(num,params,layer)
     
     
     # Forward propagation: Build the forward propagation in the tensorflow graph
-    Z3 = forward_propagation(X, parameters, keep_prob)
+    Z3 = forward_propagation(X, parameters, keep_prob, layer)
     
     # Cost function: Add cost function to tensorflow graph
-    cost = compute_cost(Z3, Y) + lamb * regulizer(parameters)
+    cost = compute_cost(Z3, Y) + lamb * regulizer(parameters,layer)
     
     # Backpropagation: Define the tensorflow optimizer. Use an AdamOptimizer.
     optimizer = tf.train.AdamOptimizer(learning_rate = learning_rate).minimize(cost)
@@ -209,7 +234,7 @@ def my_softmax(x):
     return result
         
 
-def get_probability(parameters, X):
+def get_probability(parameters, X,layer=3):
     W1 = parameters['W1']
     W2 = parameters['W2']
     W3 = parameters['W3']
@@ -218,8 +243,17 @@ def get_probability(parameters, X):
     b3 = parameters['b3']
     A1 = my_relu(np.dot(W1, X) + b1)
     A2 = my_relu(np.dot(W2, A1) + b2)
-    A3 = my_softmax(np.dot(W3, A2) + b3)
-    return A3
+    if layer == 3:
+        A3 = my_softmax(np.dot(W3, A2) + b3)
+        return A3    
+    else:
+        W4 = parameters['W4']
+        b4 = parameters['b4']
+        A3 = my_relu(np.dot(W3, A2) + b3)
+        A4 = my_softmax(np.dot(W4, A3) + b4)
+        return A4
+        
+
 
 def get_ROC(default_prob,t,Y_test):#default if 1
     TP = 0.0
