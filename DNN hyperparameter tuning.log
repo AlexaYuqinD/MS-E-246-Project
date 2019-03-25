@@ -1,0 +1,937 @@
+03-24 20:06 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 20:06 tensorflow   WARNING  From /home/ec2-user/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+03-24 20:06 tensorflow   WARNING  From /home/ec2-user/mse246/DNN_utils.py:119: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+03-24 20:06 tensorflow   WARNING  From /home/ec2-user/mse246/DNN_utils.py:134: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+03-24 20:09 root         INFO     AUC: 0.8162606211080384
+03-24 20:09 root         INFO     Best AUC for now: 0.8162606211080384
+03-24 20:09 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 20:10 root         INFO     AUC: 0.5243154471017479
+03-24 20:10 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 20:11 root         INFO     AUC: 0.5
+03-24 20:11 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:12 root         INFO     AUC: 0.7879987848356131
+03-24 20:12 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:14 root         INFO     AUC: 0.7461204873318726
+03-24 20:14 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 20:15 root         INFO     AUC: 0.7810879233967783
+03-24 20:15 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 20:16 root         INFO     AUC: 0.7937044699366478
+03-24 20:16 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 20:18 root         INFO     AUC: 0.8069759333373479
+03-24 20:18 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 20:19 root         INFO     AUC: 0.5
+03-24 20:19 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 20:20 root         INFO     AUC: 0.7889155622875971
+03-24 20:20 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 20:20 root         INFO     AUC: 0.7618760316158906
+03-24 20:20 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:22 root         INFO     AUC: 0.6035285895600857
+03-24 20:22 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:25 root         INFO     AUC: 0.5
+03-24 20:25 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 20:27 root         INFO     AUC: 0.7883468225072532
+03-24 20:27 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 20:29 root         INFO     AUC: 0.7875165598958696
+03-24 20:29 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 20:32 root         INFO     AUC: 0.4453204976769824
+03-24 20:32 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:35 root         INFO     AUC: 0.7875599861962268
+03-24 20:35 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:36 root         INFO     AUC: 0.5
+03-24 20:36 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 20:38 root         INFO     AUC: 0.8179422804636463
+03-24 20:38 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:39 root         INFO     AUC: 0.7727592415027276
+03-24 20:39 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 20:41 root         INFO     AUC: 0.5859572469038012
+03-24 20:41 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 20:42 root         INFO     AUC: 0.789038410466163
+03-24 20:42 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 20:43 root         INFO     AUC: 0.7662641627640898
+03-24 20:43 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 20:45 root         INFO     AUC: 0.7125308712744094
+03-24 20:45 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 20:46 root         INFO     AUC: 0.8139647208596014
+03-24 20:46 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 20:47 root         INFO     AUC: 0.7879273726972479
+03-24 20:47 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 20:48 root         INFO     AUC: 0.8106846841421819
+03-24 20:48 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 20:49 root         INFO     AUC: 0.8186406718762786
+03-24 20:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 20:50 root         INFO     AUC: 0.8170030178383662
+03-24 20:50 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 20:51 root         INFO     AUC: 0.6392515467483157
+03-24 20:51 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 20:55 root         INFO     AUC: 0.7880192434482258
+03-24 20:55 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 20:56 root         INFO     AUC: 0.5
+03-24 20:56 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 20:57 root         INFO     AUC: 0.8095633205640709
+03-24 20:57 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 20:59 root         INFO     AUC: 0.5
+03-24 20:59 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 20:59 root         INFO     AUC: 0.8164353878412536
+03-24 20:59 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:02 root         INFO     AUC: 0.7882265316552639
+03-24 21:02 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 21:03 root         INFO     AUC: 0.8157685528735472
+03-24 21:03 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:04 root         INFO     AUC: 0.8168511222900058
+03-24 21:04 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:05 root         INFO     AUC: 0.5
+03-24 21:05 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:07 root         INFO     AUC: 0.6945800310044484
+03-24 21:07 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:08 root         INFO     AUC: 0.7878014364262124
+03-24 21:08 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 21:09 root         INFO     AUC: 0.8153524324132362
+03-24 21:09 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:11 root         INFO     AUC: 0.8179571419086573
+03-24 21:11 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:13 root         INFO     AUC: 0.5
+03-24 21:13 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 21:14 root         INFO     AUC: 0.5
+03-24 21:14 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:15 root         INFO     AUC: 0.5
+03-24 21:15 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:16 root         INFO     AUC: 0.5640289917841299
+03-24 21:16 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:17 root         INFO     AUC: 0.7741135630565322
+03-24 21:17 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:19 root         INFO     AUC: 0.7783905711272618
+03-24 21:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 21:20 root         INFO     AUC: 0.30790897152624336
+03-24 21:20 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 21:21 root         INFO     AUC: 0.5
+03-24 21:21 root         INFO     Best AUC for now: 0.8186406718762786
+03-24 21:21 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:23 root         INFO     AUC: 0.5
+03-24 21:23 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 21:24 root         INFO     AUC: 0.7898373578898445
+03-24 21:24 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:27 root         INFO     AUC: 0.7743751823904614
+03-24 21:27 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:29 root         INFO     AUC: 0.7879914506159973
+03-24 21:29 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:30 root         INFO     AUC: 0.47690772702497797
+03-24 21:30 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:32 root         INFO     AUC: 0.8167908079839541
+03-24 21:32 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 21:33 root         INFO     AUC: 0.7868406536565331
+03-24 21:33 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 21:33 root         INFO     AUC: 0.8105435004145766
+03-24 21:33 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:36 root         INFO     AUC: 0.809945375504324
+03-24 21:36 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:38 root         INFO     AUC: 0.5
+03-24 21:38 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:41 root         INFO     AUC: 0.25817500104223123
+03-24 21:41 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:43 root         INFO     AUC: 0.7825963600654058
+03-24 21:43 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:44 root         INFO     AUC: 0.7884119619577888
+03-24 21:44 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 21:46 root         INFO     AUC: 0.7078959339858473
+03-24 21:46 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 21:47 root         INFO     AUC: 0.5
+03-24 21:47 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 21:51 root         INFO     AUC: 0.5
+03-24 21:51 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:52 root         INFO     AUC: 0.8159303882195448
+03-24 21:52 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 21:54 root         INFO     AUC: 0.7882626237360052
+03-24 21:54 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 21:55 root         INFO     AUC: 0.7878725590559085
+03-24 21:55 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 21:56 root         INFO     AUC: 0.5
+03-24 21:56 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:58 root         INFO     AUC: 0.8113284066678093
+03-24 21:58 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 21:59 root         INFO     AUC: 0.787006638626787
+03-24 21:59 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 22:00 root         INFO     AUC: 0.5
+03-24 22:00 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 22:02 root         INFO     AUC: 0.4614316551094806
+03-24 22:02 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:06 root         INFO     AUC: 0.5
+03-24 22:06 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:07 root         INFO     AUC: 0.8146114832262538
+03-24 22:07 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:08 root         INFO     AUC: 0.788709818126794
+03-24 22:08 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:10 root         INFO     AUC: 0.5
+03-24 22:10 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:11 root         INFO     AUC: 0.7427434652103222
+03-24 22:11 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:13 root         INFO     AUC: 0.28854441217387816
+03-24 22:13 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:16 root         INFO     AUC: 0.7886827008147932
+03-24 22:16 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:17 root         INFO     AUC: 0.7480802680155454
+03-24 22:17 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:18 root         INFO     AUC: 0.2742052890531754
+03-24 22:18 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 22:18 root         INFO     AUC: 0.5
+03-24 22:18 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 22:21 root         INFO     AUC: 0.5
+03-24 22:21 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 22:22 root         INFO     AUC: 0.8191295555154103
+03-24 22:22 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 22:24 root         INFO     AUC: 0.7884118172034542
+03-24 22:24 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:25 root         INFO     AUC: 0.7876950902417822
+03-24 22:25 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 22:27 root         INFO     AUC: 0.8187899618466175
+03-24 22:27 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:29 root         INFO     AUC: 0.4142249023004745
+03-24 22:29 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:30 root         INFO     AUC: 0.7840407188152841
+03-24 22:30 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:31 root         INFO     AUC: 0.7762845403142752
+03-24 22:31 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 22:33 root         INFO     AUC: 0.7853289358896562
+03-24 22:33 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 22:33 root         INFO     AUC: 0.5
+03-24 22:33 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 22:34 root         INFO     AUC: 0.7594748467148099
+03-24 22:34 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 22:35 root         INFO     AUC: 0.5
+03-24 22:35 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:36 root         INFO     AUC: 0.7438747685860705
+03-24 22:36 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:36 root         INFO     AUC: 0.569583794617146
+03-24 22:36 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:38 root         INFO     AUC: 0.7859395096726777
+03-24 22:38 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:40 root         INFO     AUC: 0.7882497888516774
+03-24 22:40 root         INFO     Best AUC for now: 0.8191295555154103
+03-24 22:40 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:41 root         INFO     AUC: 0.8162981607321249
+03-24 22:41 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:42 root         INFO     AUC: 0.5
+03-24 22:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:43 root         INFO     AUC: 0.8180855872548248
+03-24 22:43 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:45 root         INFO     AUC: 0.5
+03-24 22:45 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 22:45 root         INFO     AUC: 0.7857824994711641
+03-24 22:45 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:48 root         INFO     AUC: 0.2280255682476156
+03-24 22:48 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 22:49 root         INFO     AUC: 0.5
+03-24 22:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 22:51 root         INFO     AUC: 0.778284128439942
+03-24 22:51 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:54 root         INFO     AUC: 0.28923903997381295
+03-24 22:54 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:57 root         INFO     AUC: 0.816223081483952
+03-24 22:57 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 22:59 root         INFO     AUC: 0.7085920093291275
+03-24 22:59 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 23:01 root         INFO     AUC: 0.788748998300005
+03-24 23:01 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 23:02 root         INFO     AUC: 0.24826410602039067
+03-24 23:02 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:02 root         INFO     AUC: 0.7893248310427408
+03-24 23:02 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:03 root         INFO     AUC: 0.793554842206195
+03-24 23:03 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 23:05 root         INFO     AUC: 0.4759779216828869
+03-24 23:05 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:06 root         INFO     AUC: 0.7407062892091241
+03-24 23:06 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:07 root         INFO     AUC: 0.8188017351991588
+03-24 23:07 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:09 root         INFO     AUC: 0.7521417368821691
+03-24 23:09 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 23:13 root         INFO     AUC: 0.7899058749415193
+03-24 23:13 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 23:14 root         INFO     AUC: 0.4674013238652418
+03-24 23:14 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 23:15 root         INFO     AUC: 0.49677815452505913
+03-24 23:15 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:17 root         INFO     AUC: 0.5
+03-24 23:17 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 23:18 root         INFO     AUC: 0.8178781060420073
+03-24 23:18 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 23:20 root         INFO     AUC: 0.5
+03-24 23:20 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:22 root         INFO     AUC: 0.7880710654999854
+03-24 23:22 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:25 root         INFO     AUC: 0.8158018463704878
+03-24 23:25 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:26 root         INFO     AUC: 0.7888993498021304
+03-24 23:26 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 23:29 root         INFO     AUC: 0.5459831444192764
+03-24 23:29 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:30 root         INFO     AUC: 0.8012139388001834
+03-24 23:30 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:31 root         INFO     AUC: 0.44898273408898953
+03-24 23:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 23:32 root         INFO     AUC: 0.793149626572418
+03-24 23:32 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:34 root         INFO     AUC: 0.7812380336416793
+03-24 23:34 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 23:36 root         INFO     AUC: 0.7883154108166616
+03-24 23:36 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:38 root         INFO     AUC: 0.2509405654142908
+03-24 23:38 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:40 root         INFO     AUC: 0.8159541279304068
+03-24 23:40 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:41 root         INFO     AUC: 0.7862386686306936
+03-24 23:41 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-24 23:42 root         INFO     AUC: 0.8185188852294993
+03-24 23:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:43 root         INFO     AUC: 0.4410667468026663
+03-24 23:43 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 23:44 root         INFO     AUC: 0.7854884551663015
+03-24 23:44 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:45 root         INFO     AUC: 0.7872704292757342
+03-24 23:45 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:47 root         INFO     AUC: 0.7802370574184473
+03-24 23:47 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-24 23:47 root         INFO     AUC: 0.8125165984970254
+03-24 23:47 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:48 root         INFO     AUC: 0.7879664563675695
+03-24 23:48 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-24 23:49 root         INFO     AUC: 0.8174556163909771
+03-24 23:49 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:50 root         INFO     AUC: 0.5
+03-24 23:50 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:52 root         INFO     AUC: 0.8159901235082584
+03-24 23:52 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:54 root         INFO     AUC: 0.5
+03-24 23:54 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-24 23:55 root         INFO     AUC: 0.24785541628258512
+03-24 23:55 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-24 23:56 root         INFO     AUC: 0.5
+03-24 23:56 root         INFO     Best AUC for now: 0.8191295555154103
+03-24 23:56 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-24 23:57 root         INFO     AUC: 0.8185743743910667
+03-24 23:57 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-24 23:58 root         INFO     AUC: 0.8122618308682635
+03-24 23:58 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:00 root         INFO     AUC: 0.7955502324561606
+03-25 00:00 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 00:01 root         INFO     AUC: 0.5
+03-25 00:01 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:02 root         INFO     AUC: 0.5
+03-25 00:02 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 00:03 root         INFO     AUC: 0.7092774211030975
+03-25 00:03 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:04 root         INFO     AUC: 0.4097016671067198
+03-25 00:04 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:05 root         INFO     AUC: 0.792277240449688
+03-25 00:05 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:08 root         INFO     AUC: 0.8160495692883026
+03-25 00:08 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:08 root         INFO     AUC: 0.7892385574593646
+03-25 00:08 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 00:11 root         INFO     AUC: 0.8131317079158619
+03-25 00:11 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:13 root         INFO     AUC: 0.812707963727266
+03-25 00:13 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:14 root         INFO     AUC: 0.788523471046817
+03-25 00:14 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:16 root         INFO     AUC: 0.8070113016464164
+03-25 00:16 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:18 root         INFO     AUC: 0.5744148740289879
+03-25 00:18 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:19 root         INFO     AUC: 0.8158833913122694
+03-25 00:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 00:20 root         INFO     AUC: 0.6903881867338635
+03-25 00:20 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:22 root         INFO     AUC: 0.7883363519437225
+03-25 00:22 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:23 root         INFO     AUC: 0.7759425340732403
+03-25 00:23 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:24 root         INFO     AUC: 0.777183126971554
+03-25 00:24 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 00:26 root         INFO     AUC: 0.8157174063420154
+03-25 00:26 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 00:28 root         INFO     AUC: 0.5
+03-25 00:28 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:29 root         INFO     AUC: 0.8159628131904783
+03-25 00:29 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:31 root         INFO     AUC: 0.7775107542820262
+03-25 00:31 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:33 root         INFO     AUC: 0.5
+03-25 00:33 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 00:33 root         INFO     AUC: 0.8011448909826155
+03-25 00:33 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:36 root         INFO     AUC: 0.5951588456864753
+03-25 00:36 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 00:38 root         INFO     AUC: 0.3373802785150598
+03-25 00:38 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:41 root         INFO     AUC: 0.7879940561940187
+03-25 00:41 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:42 root         INFO     AUC: 0.8179444035272193
+03-25 00:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 00:45 root         INFO     AUC: 0.7880921996328258
+03-25 00:45 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 00:46 root         INFO     AUC: 0.8054728043276529
+03-25 00:46 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 00:47 root         INFO     AUC: 0.5
+03-25 00:47 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:48 root         INFO     AUC: 0.6461623116842611
+03-25 00:48 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 00:49 root         INFO     AUC: 0.8144431339352025
+03-25 00:49 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:52 root         INFO     AUC: 0.8117611738765904
+03-25 00:52 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 00:52 root         INFO     AUC: 0.5
+03-25 00:52 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 00:54 root         INFO     AUC: 0.8105200502123836
+03-25 00:54 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 00:56 root         INFO     AUC: 0.5
+03-25 00:56 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:57 root         INFO     AUC: 0.7878170698943409
+03-25 00:57 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 00:59 root         INFO     AUC: 0.5
+03-25 00:59 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:00 root         INFO     AUC: 0.7130271856360466
+03-25 01:00 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 01:02 root         INFO     AUC: 0.733679334794001
+03-25 01:02 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:03 root         INFO     AUC: 0.5
+03-25 01:03 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:04 root         INFO     AUC: 0.7824006522051297
+03-25 01:04 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:04 root         INFO     AUC: 0.3486994402060375
+03-25 01:04 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:06 root         INFO     AUC: 0.5413927914657477
+03-25 01:06 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 01:07 root         INFO     AUC: 0.5
+03-25 01:07 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 01:08 root         INFO     AUC: 0.787986046454175
+03-25 01:08 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 01:10 root         INFO     AUC: 0.8177925079788589
+03-25 01:10 root         INFO     Best AUC for now: 0.8191295555154103
+03-25 01:10 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:12 root         INFO     AUC: 0.6418897909979017
+03-25 01:12 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 01:13 root         INFO     AUC: 0.4363903132715406
+03-25 01:13 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:14 root         INFO     AUC: 0.28473997875392376
+03-25 01:14 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:15 root         INFO     AUC: 0.5
+03-25 01:15 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 01:16 root         INFO     AUC: 0.7309615239118721
+03-25 01:16 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:17 root         INFO     AUC: 0.7880247441129378
+03-25 01:17 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:19 root         INFO     AUC: 0.8174473171424645
+03-25 01:19 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 01:19 root         INFO     AUC: 0.7866706155649125
+03-25 01:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:20 root         INFO     AUC: 0.40634799868447263
+03-25 01:20 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:21 root         INFO     AUC: 0.8126156104618397
+03-25 01:21 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 01:23 root         INFO     AUC: 0.3206032511437522
+03-25 01:23 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:24 root         INFO     AUC: 0.787779723276034
+03-25 01:24 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 01:26 root         INFO     AUC: 0.5
+03-25 01:26 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:27 root         INFO     AUC: 0.7878715940270115
+03-25 01:27 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 01:28 root         INFO     AUC: 0.8071745845357594
+03-25 01:28 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 01:29 root         INFO     AUC: 0.7869949617771355
+03-25 01:29 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 01:30 root         INFO     AUC: 0.8164450381302217
+03-25 01:30 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:31 root         INFO     AUC: 0.5
+03-25 01:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:31 root         INFO     AUC: 0.3142968838058887
+03-25 01:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 01:32 root         INFO     AUC: 0.7826807035909883
+03-25 01:32 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:32 root         INFO     AUC: 0.785578299356596
+03-25 01:32 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:34 root         INFO     AUC: 0.5
+03-25 01:34 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:35 root         INFO     AUC: 0.24374212536420187
+03-25 01:35 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:37 root         INFO     AUC: 0.421597916077999
+03-25 01:37 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:38 root         INFO     AUC: 0.7816266025269861
+03-25 01:38 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 01:38 root         INFO     AUC: 0.44116706155649127
+03-25 01:38 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 01:40 root         INFO     AUC: 0.7915177627078865
+03-25 01:40 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:42 root         INFO     AUC: 0.23741008825768278
+03-25 01:42 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:43 root         INFO     AUC: 0.7866472618656093
+03-25 01:43 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 01:44 root         INFO     AUC: 0.7642066729046134
+03-25 01:44 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:46 root         INFO     AUC: 0.6609039483578296
+03-25 01:46 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 01:48 root         INFO     AUC: 0.5
+03-25 01:48 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:49 root         INFO     AUC: 0.5
+03-25 01:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 01:51 root         INFO     AUC: 0.4845992968413446
+03-25 01:51 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 01:51 root         INFO     AUC: 0.5
+03-25 01:51 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:52 root         INFO     AUC: 0.7848516325972865
+03-25 01:52 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:54 root         INFO     AUC: 0.7581444096262019
+03-25 01:54 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:57 root         INFO     AUC: 0.8081137506581497
+03-25 01:57 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 01:57 root         INFO     AUC: 0.7829839156703707
+03-25 01:57 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 01:59 root         INFO     AUC: 0.8119006688036267
+03-25 01:59 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:00 root         INFO     AUC: 0.5
+03-25 02:00 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:01 root         INFO     AUC: 0.7910695550367561
+03-25 02:01 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:02 root         INFO     AUC: 0.7881648663087568
+03-25 02:02 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:02 root         INFO     AUC: 0.5081606703631134
+03-25 02:02 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 02:03 root         INFO     AUC: 0.7804609923739556
+03-25 02:03 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:04 root         INFO     AUC: 0.7895646407236018
+03-25 02:04 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:05 root         INFO     AUC: 0.5
+03-25 02:05 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 02:06 root         INFO     AUC: 0.5370808493489528
+03-25 02:06 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:07 root         INFO     AUC: 0.2543184078104035
+03-25 02:07 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:07 root         INFO     AUC: 0.5800121863849091
+03-25 02:07 root         INFO     Best AUC for now: 0.8191295555154103
+03-25 02:07 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:08 root         INFO     AUC: 0.6566930447665326
+03-25 02:08 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:09 root         INFO     AUC: 0.786291069699791
+03-25 02:09 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 02:11 root         INFO     AUC: 0.5
+03-25 02:11 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:13 root         INFO     AUC: 0.7782889535844261
+03-25 02:13 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:14 root         INFO     AUC: 0.7990375091291734
+03-25 02:14 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:16 root         INFO     AUC: 0.7587598568051521
+03-25 02:16 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:18 root         INFO     AUC: 0.5
+03-25 02:18 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:19 root         INFO     AUC: 0.3560929608476196
+03-25 02:19 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:21 root         INFO     AUC: 0.48495269042336203
+03-25 02:21 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 02:21 root         INFO     AUC: 0.8166167167709669
+03-25 02:21 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:23 root         INFO     AUC: 0.6513182680742193
+03-25 02:23 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:24 root         INFO     AUC: 0.3794784096014971
+03-25 02:24 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:27 root         INFO     AUC: 0.3418939599227359
+03-25 02:27 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:27 root         INFO     AUC: 0.41479422109815656
+03-25 02:27 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:28 root         INFO     AUC: 0.5
+03-25 02:28 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:29 root         INFO     AUC: 0.8156527494059281
+03-25 02:29 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:30 root         INFO     AUC: 0.8157945121508718
+03-25 02:30 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:32 root         INFO     AUC: 0.6478571919357552
+03-25 02:32 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:33 root         INFO     AUC: 0.8157730885093624
+03-25 02:33 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:35 root         INFO     AUC: 0.8099448929898757
+03-25 02:35 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:38 root         INFO     AUC: 0.4278365866387503
+03-25 02:38 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:38 root         INFO     AUC: 0.7145240902093573
+03-25 02:38 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:39 root         INFO     AUC: 0.8163626246624329
+03-25 02:39 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 02:40 root         INFO     AUC: 0.7876448122362576
+03-25 02:40 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:41 root         INFO     AUC: 0.7291379088055413
+03-25 02:41 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:42 root         INFO     AUC: 0.5
+03-25 02:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:42 root         INFO     AUC: 0.8142328058871395
+03-25 02:42 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 02:43 root         INFO     AUC: 0.7629574429976731
+03-25 02:43 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 02:45 root         INFO     AUC: 0.5
+03-25 02:45 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:46 root         INFO     AUC: 0.7957884980907868
+03-25 02:46 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:48 root         INFO     AUC: 0.45469136252815956
+03-25 02:48 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:49 root         INFO     AUC: 0.8111770418853422
+03-25 02:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:51 root         INFO     AUC: 0.7790184189275363
+03-25 02:51 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 02:53 root         INFO     AUC: 0.5
+03-25 02:53 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 02:54 root         INFO     AUC: 0.2735220968456679
+03-25 02:54 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 02:56 root         INFO     AUC: 0.7724058479207101
+03-25 02:56 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 02:59 root         INFO     AUC: 0.7722441090776022
+03-25 02:59 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:03 root         INFO     AUC: 0.5
+03-25 03:03 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 03:04 root         INFO     AUC: 0.8186112384949256
+03-25 03:04 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:06 root         INFO     AUC: 0.8161841908194098
+03-25 03:06 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:07 root         INFO     AUC: 0.7233785198463983
+03-25 03:07 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:08 root         INFO     AUC: 0.5
+03-25 03:08 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 03:09 root         INFO     AUC: 0.7897991909969752
+03-25 03:09 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:11 root         INFO     AUC: 0.5
+03-25 03:11 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 03:11 root         INFO     AUC: 0.8093606644957376
+03-25 03:11 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:12 root         INFO     AUC: 0.7838875204779132
+03-25 03:12 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 03:14 root         INFO     AUC: 0.36858101378987695
+03-25 03:14 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:15 root         INFO     AUC: 0.28909332061039233
+03-25 03:15 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:16 root         INFO     AUC: 0.7523672158839124
+03-25 03:16 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:18 root         INFO     AUC: 0.39866564489407075
+03-25 03:18 root         INFO     Best AUC for now: 0.8191295555154103
+03-25 03:18 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 03:19 root         INFO     AUC: 0.6081473143631813
+03-25 03:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:20 root         INFO     AUC: 0.8159749725545781
+03-25 03:20 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:21 root         INFO     AUC: 0.7883850859030123
+03-25 03:21 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 03:22 root         INFO     AUC: 0.5
+03-25 03:22 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:24 root         INFO     AUC: 0.7878594346629116
+03-25 03:24 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:25 root         INFO     AUC: 0.818074296416732
+03-25 03:25 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:26 root         INFO     AUC: 0.8186969330609637
+03-25 03:26 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:28 root         INFO     AUC: 0.7880101721765957
+03-25 03:28 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:28 root         INFO     AUC: 0.7912776635183563
+03-25 03:28 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 03:30 root         INFO     AUC: 0.8171674587623852
+03-25 03:30 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:31 root         INFO     AUC: 0.7884900810469869
+03-25 03:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:33 root         INFO     AUC: 0.776552673593258
+03-25 03:33 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:35 root         INFO     AUC: 0.7877675639119338
+03-25 03:35 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:37 root         INFO     AUC: 0.5
+03-25 03:37 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:39 root         INFO     AUC: 0.5
+03-25 03:39 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 03:40 root         INFO     AUC: 0.789326568094755
+03-25 03:40 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 03:41 root         INFO     AUC: 0.5
+03-25 03:41 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:42 root         INFO     AUC: 0.31153371656560885
+03-25 03:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 03:45 root         INFO     AUC: 0.7881751921179527
+03-25 03:45 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 03:46 root         INFO     AUC: 0.8093145361144695
+03-25 03:46 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 03:47 root         INFO     AUC: 0.812331602457504
+03-25 03:47 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:48 root         INFO     AUC: 0.8161308247214154
+03-25 03:48 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:50 root         INFO     AUC: 0.8163588610497353
+03-25 03:50 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 03:51 root         INFO     AUC: 0.4135649672893805
+03-25 03:51 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 03:52 root         INFO     AUC: 0.8178719298570676
+03-25 03:52 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 03:54 root         INFO     AUC: 0.7863355575319348
+03-25 03:54 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 03:57 root         INFO     AUC: 0.3550667491187356
+03-25 03:57 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 03:58 root         INFO     AUC: 0.5
+03-25 03:58 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:00 root         INFO     AUC: 0.7837067705655378
+03-25 04:00 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:02 root         INFO     AUC: 0.6294120638648404
+03-25 04:02 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 04:03 root         INFO     AUC: 0.7845314360093198
+03-25 04:03 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:03 root         INFO     AUC: 0.5
+03-25 04:03 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:05 root         INFO     AUC: 0.78822469810036
+03-25 04:05 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 04:06 root         INFO     AUC: 0.2631679640515156
+03-25 04:06 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:08 root         INFO     AUC: 0.29193919082713016
+03-25 04:08 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:09 root         INFO     AUC: 0.2560381858074358
+03-25 04:09 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:10 root         INFO     AUC: 0.8160091345775258
+03-25 04:10 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 04:13 root         INFO     AUC: 0.5
+03-25 04:13 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:14 root         INFO     AUC: 0.6517187550664016
+03-25 04:14 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:15 root         INFO     AUC: 0.5
+03-25 04:15 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 04:16 root         INFO     AUC: 0.30061909498818035
+03-25 04:16 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:19 root         INFO     AUC: 0.78651939553678
+03-25 04:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:21 root         INFO     AUC: 0.5763059446552068
+03-25 04:21 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 04:22 root         INFO     AUC: 0.7960947017597495
+03-25 04:22 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:23 root         INFO     AUC: 0.7804475302208449
+03-25 04:23 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:23 root         INFO     AUC: 0.6279777896669338
+03-25 04:23 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:25 root         INFO     AUC: 0.8177947275453217
+03-25 04:25 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:25 root         INFO     AUC: 0.7878883855298164
+03-25 04:25 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:26 root         INFO     AUC: 0.6542842361371668
+03-25 04:26 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:28 root         INFO     AUC: 0.7839310432811599
+03-25 04:28 root         INFO     Best AUC for now: 0.8191295555154103
+03-25 04:28 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:28 root         INFO     AUC: 0.7882399938083746
+03-25 04:28 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:29 root         INFO     AUC: 0.7823235463962733
+03-25 04:29 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:30 root         INFO     AUC: 0.5
+03-25 04:30 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:31 root         INFO     AUC: 0.819249991121734
+03-25 04:31 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:33 root         INFO     AUC: 0.5
+03-25 04:33 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:35 root         INFO     AUC: 0.5
+03-25 04:35 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 04:35 root         INFO     AUC: 0.8026329655415202
+03-25 04:35 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:37 root         INFO     AUC: 0.23414409271071213
+03-25 04:37 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:38 root         INFO     AUC: 0.7931605796503971
+03-25 04:38 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:41 root         INFO     AUC: 0.312284460795894
+03-25 04:41 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:41 root         INFO     AUC: 0.7616915180908178
+03-25 04:41 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:42 root         INFO     AUC: 0.7788346291741359
+03-25 04:42 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:43 root         INFO     AUC: 0.5
+03-25 04:43 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 04:44 root         INFO     AUC: 0.34447681151364395
+03-25 04:44 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:45 root         INFO     AUC: 0.7842578503170698
+03-25 04:45 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 04:46 root         INFO     AUC: 0.7882999703543123
+03-25 04:46 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:47 root         INFO     AUC: 0.5
+03-25 04:47 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 04:49 root         INFO     AUC: 0.7880067945754567
+03-25 04:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:50 root         INFO     AUC: 0.7888116286754091
+03-25 04:50 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:51 root         INFO     AUC: 0.3422127089673573
+03-25 04:51 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 04:53 root         INFO     AUC: 0.7774125143403293
+03-25 04:53 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 04:56 root         INFO     AUC: 0.7881710424936965
+03-25 04:56 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 04:57 root         INFO     AUC: 0.5747617536659517
+03-25 04:57 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:58 root         INFO     AUC: 0.7879257321481234
+03-25 04:58 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 04:59 root         INFO     AUC: 0.5
+03-25 04:59 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:00 root         INFO     AUC: 0.6990373547245499
+03-25 05:00 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:01 root         INFO     AUC: 0.7783753236706921
+03-25 05:01 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:05 root         INFO     AUC: 0.7791438244326789
+03-25 05:05 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:05 root         INFO     AUC: 0.7800121574340422
+03-25 05:05 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:06 root         INFO     AUC: 0.5803739757183289
+03-25 05:06 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:08 root         INFO     AUC: 0.8169538013646281
+03-25 05:08 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:10 root         INFO     AUC: 0.5
+03-25 05:10 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:12 root         INFO     AUC: 0.7721490537312649
+03-25 05:12 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:13 root         INFO     AUC: 0.788134081886948
+03-25 05:13 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 05:13 root         INFO     AUC: 0.6772175206014368
+03-25 05:13 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:16 root         INFO     AUC: 0.8087246139498402
+03-25 05:16 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:16 root         INFO     AUC: 0.7884774874198833
+03-25 05:16 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 05:17 root         INFO     AUC: 0.773747913607525
+03-25 05:17 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:19 root         INFO     AUC: 0.787755983565172
+03-25 05:19 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:22 root         INFO     AUC: 0.2753357239029166
+03-25 05:22 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:23 root         INFO     AUC: 0.8134162949375356
+03-25 05:23 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 05:24 root         INFO     AUC: 0.5
+03-25 05:24 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:26 root         INFO     AUC: 0.8164049894310035
+03-25 05:26 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:27 root         INFO     AUC: 0.5
+03-25 05:27 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:28 root         INFO     AUC: 0.5
+03-25 05:28 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:30 root         INFO     AUC: 0.7886549079825647
+03-25 05:30 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:31 root         INFO     AUC: 0.7775354590217848
+03-25 05:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:31 root         INFO     AUC: 0.6890765677087434
+03-25 05:31 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 05:32 root         INFO     AUC: 0.7786864489870284
+03-25 05:32 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:34 root         INFO     AUC: 0.7904232269331073
+03-25 05:34 root         INFO     Best AUC for now: 0.819249991121734
+03-25 05:34 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:35 root         INFO     AUC: 0.755741149912993
+03-25 05:35 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:37 root         INFO     AUC: 0.8113635819710986
+03-25 05:37 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 05:37 root         INFO     AUC: 0.8165453046326019
+03-25 05:37 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:38 root         INFO     AUC: 0.5
+03-25 05:38 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:38 root         INFO     AUC: 0.7909001924653631
+03-25 05:38 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:40 root         INFO     AUC: 0.4306018769426031
+03-25 05:40 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:41 root         INFO     AUC: 0.7895243025157145
+03-25 05:41 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:41 root         INFO     AUC: 0.2408730462024955
+03-25 05:41 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 05:42 root         INFO     AUC: 0.8051607622338643
+03-25 05:42 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:43 root         INFO     AUC: 0.7457010857733125
+03-25 05:43 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:44 root         INFO     AUC: 0.5
+03-25 05:44 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 05:45 root         INFO     AUC: 0.7284797590979064
+03-25 05:45 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 05:46 root         INFO     AUC: 0.7983047144363692
+03-25 05:46 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:48 root         INFO     AUC: 0.5
+03-25 05:48 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 05:49 root         INFO     AUC: 0.5
+03-25 05:49 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 05:50 root         INFO     AUC: 0.8197271014083246
+03-25 05:50 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:51 root         INFO     AUC: 0.7784375197830925
+03-25 05:51 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 05:53 root         INFO     AUC: 0.5
+03-25 05:53 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 05:55 root         INFO     AUC: 0.8034910692365772
+03-25 05:55 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 05:57 root         INFO     AUC: 0.5
+03-25 05:57 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 05:58 root         INFO     AUC: 0.5
+03-25 05:58 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:00 root         INFO     AUC: 0.7674329575124798
+03-25 06:00 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 06:01 root         INFO     AUC: 0.5
+03-25 06:01 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 06:01 root         INFO     AUC: 0.7972279351932914
+03-25 06:01 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:02 root         INFO     AUC: 0.8186464620496597
+03-25 06:02 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:03 root         INFO     AUC: 0.5
+03-25 06:03 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 06:04 root         INFO     AUC: 0.7892506203205749
+03-25 06:04 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 06:05 root         INFO     AUC: 0.6076800473713385
+03-25 06:05 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 06:06 root         INFO     AUC: 0.5
+03-25 06:06 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:06 root         INFO     AUC: 0.5347570115139528
+03-25 06:06 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:07 root         INFO     AUC: 0.5
+03-25 06:07 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [64, 32, 2]), ('layer', 3)]
+03-25 06:08 root         INFO     AUC: 0.7878716905299012
+03-25 06:08 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.8), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 06:10 root         INFO     AUC: 0.26287913090269577
+03-25 06:10 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.8), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 06:11 root         INFO     AUC: 0.8156989742900862
+03-25 06:11 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 06:13 root         INFO     AUC: 0.7665827670543767
+03-25 06:13 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:15 root         INFO     AUC: 0.7248081619056002
+03-25 06:15 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 06:16 root         INFO     AUC: 0.810530858536028
+03-25 06:16 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:17 root         INFO     AUC: 0.8197047127379182
+03-25 06:17 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:18 root         INFO     AUC: 0.787955937552594
+03-25 06:18 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 06:20 root         INFO     AUC: 0.7877021349527289
+03-25 06:20 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 0.01), ('num_epochs', 500), ('minibatch_size', 256), ('params', [512, 256, 2]), ('layer', 3)]
+03-25 06:23 root         INFO     AUC: 0.8127724276575737
+03-25 06:23 root         INFO     [('learning_rate', 0.1), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 06:24 root         INFO     AUC: 0.5
+03-25 06:24 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:25 root         INFO     AUC: 0.7837156005799437
+03-25 06:25 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 256), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 06:26 root         INFO     AUC: 0.7022541820492273
+03-25 06:26 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:26 root         INFO     AUC: 0.5
+03-25 06:26 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:28 root         INFO     AUC: 0.38778064970377474
+03-25 06:28 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:29 root         INFO     AUC: 0.5
+03-25 06:29 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [512, 128, 2]), ('layer', 3)]
+03-25 06:30 root         INFO     AUC: 0.7140328905008733
+03-25 06:30 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 0.9), ('lamb', 1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 06:32 root         INFO     AUC: 0.41216403483985925
+03-25 06:32 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.8), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [100, 50, 2]), ('layer', 3)]
+03-25 06:33 root         INFO     AUC: 0.7888614241664854
+03-25 06:33 root         INFO     Best AUC for now: 0.8197271014083246
+03-25 06:33 root         INFO     [('learning_rate', 0.01), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 500), ('minibatch_size', 256), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:35 root         INFO     AUC: 0.41157237562321564
+03-25 06:35 root         INFO     [('learning_rate', 1e-05), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 512), ('params', [128, 64, 2]), ('layer', 3)]
+03-25 06:36 root         INFO     AUC: 0.7906917944750936
+03-25 06:36 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 0.1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 128, 2]), ('layer', 3)]
+03-25 06:37 root         INFO     AUC: 0.7801078400491624
+03-25 06:37 root         INFO     [('learning_rate', 0.01), ('keep_prob', 0.9), ('lamb', 0.1), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:38 root         INFO     AUC: 0.7872025394928425
+03-25 06:38 root         INFO     [('learning_rate', 0.1), ('keep_prob', 1), ('lamb', 10), ('num_epochs', 300), ('minibatch_size', 1024), ('params', [256, 64, 2]), ('layer', 3)]
+03-25 06:38 root         INFO     AUC: 0.5
+03-25 06:38 root         INFO     [('learning_rate', 0.0001), ('keep_prob', 1), ('lamb', 1), ('num_epochs', 500), ('minibatch_size', 512), ('params', [256, 64, 2]), ('layer', 3)]
