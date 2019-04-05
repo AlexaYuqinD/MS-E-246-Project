@@ -13,6 +13,7 @@ US Small Business Administration between 1990 and 2014.
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/missing.png" 
  width="400" height="290" />
 </p>
+
 ### Geographical Distribution
 Percentage of defaulted loans by borrower state
 <p align="center">
@@ -24,6 +25,7 @@ Percentage of defaulted loans by CDC state
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo2.png" 
 title="Percentage of defaulted loans by CDC state" width="500" height="300" />
 </p>
+
 ### Distribution of Gross Approval Before and After Log Transformation
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/gross_approval.png" 
@@ -31,11 +33,13 @@ title="Percentage of defaulted loans by CDC state" width="500" height="300" />
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/log_gross.png" 
  width="400" height="250" />
 </p>
+
 ### Feature Correlation
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/corr.png" 
  width="500" height="400" />
 </p>
+
 ## 3. Data Preprocessing
 Including dropping data, handling missing values, adding features, data transformation, oversampling (RandomOversampler & SMOTE), and train-dev-test split.
 
@@ -58,6 +62,7 @@ Including dropping data, handling missing values, adding features, data transfor
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
  width="450" height="340" />
 </p>
+
 ## 5. Regression: Modeling Loss at Default
 
   Performance of all regression models on test set
@@ -85,6 +90,7 @@ Note: Distribution over 500 loans
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim5.png" 
  width="390" height="250" />
 </p>
+
 ### Portfolio Simulation
 Note: Distribution over 1000 simulations
   <p align="center">
@@ -99,6 +105,7 @@ Note: Distribution over 1000 simulations
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/var.PNG" 
  width="350" height="100" />
 </p>
+
 ### Tranche Simulation
 <p align="center">
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche11.png" 
