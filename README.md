@@ -40,7 +40,7 @@ Including dropping data, handling missing values, adding features, data transfor
  width="500" height="370" />
 
 
-Feature Importance of LightGBM Classifier
+  Feature Importance of LightGBM Classifier
 
-<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
+  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
  width="450" height="320" />
