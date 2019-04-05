@@ -63,7 +63,7 @@ Including dropping data, handling missing values, adding features, data transfor
   Feature importance of LightGBM Regressor
 
    <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_reg.png" 
- width="450" height="320" />
+ width="430" height="320" />
 
 ## 6. Portfolio Simulation
 
@@ -88,7 +88,7 @@ Note: Distribution over 1000 simulations
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/portsim5.png" 
  width="390" height="250" />
 
-  VaR and Average VaR of Portfolio Loss
+  VaR and Average VaR of portfolio loss
 
    <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/var.PNG" 
  width="350" height="100" />
