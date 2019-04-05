@@ -58,7 +58,7 @@ Including dropping data, handling missing values, adding features, data transfor
   Performance of all regression models on test set
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/allreg.PNG" 
- width="530" height="280" />
+ width="530" height="270" />
 
   Feature importance of LightGBM Regressor
 
@@ -77,5 +77,6 @@ in full before that date.
    <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim1.png" 
  width="400" height="250" />
 
-   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim2.png" 
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim5.png" 
  width="400" height="250" />
+
