@@ -12,7 +12,7 @@ US Small Business Administration between 1990 and 2014.
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/missing.png" 
  width="500" height="400" />
 ### Geographical Distribution
-<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png" 
-title="Percentage of defaulted loans by borrower state" width="500" height="300" />
+<figure><img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png" 
+title="Percentage of defaulted loans by borrower state" width="500" height="300" /><figcaption>Percentage of defaulted loans by borrower state</figcaption></figure>
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo2.png" 
 title="Percentage of defaulted loans by CDC state" width="500" height="300" />
