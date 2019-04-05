@@ -51,7 +51,7 @@ Including dropping data, handling missing values, adding features, data transfor
   Feature importance of LightGBM Classifier
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
- width="450" height="320" />
+ width="450" height="340" />
 
 ## 5. Regression: Modeling Loss at Default
 
@@ -73,10 +73,38 @@ period and randomly select 500 loans from the test set that had not defaulted or
 in full before that date.
 
 ### Loan Simulation
+Note: Distribution over 500 loans
 
    <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim1.png" 
- width="400" height="250" />
+ width="390" height="250" />
 
-   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim5.png" 
- width="400" height="250" />
+ <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim5.png" 
+ width="390" height="250" />
+
+### Portfolio Simulation
+Note: Distribution over 1000 simulations
+
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/portsim1.png" 
+ width="390" height="250" />
+
+ <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/portsim5.png" 
+ width="390" height="250" />
+
+ VaR and Average VaR of Portfolio Loss
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/var.PNG" 
+ width="350" height="120" />
+
+### Tranche Simulation
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche11.png" 
+ width="390" height="250" />
+
+ <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche15.png" 
+ width="390" height="250" />
+
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche21.png" 
+ width="390" height="250" />
+
+ <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche25.png" 
+ width="390" height="250" />
+
 
