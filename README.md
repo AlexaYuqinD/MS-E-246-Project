@@ -10,7 +10,7 @@ US Small Business Administration between 1990 and 2014.
 ## 2. Exploratory Data Analysis
 ### Missing Data
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/missing.png" 
- width="600" height="800" />
+ width="500" height="300" />
 ### Geographical Distribution
 ![alt text](https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png)
 ![alt text](https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo2.png)
