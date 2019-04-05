@@ -12,7 +12,19 @@ US Small Business Administration between 1990 and 2014.
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/missing.png" 
  width="500" height="400" />
 ### Geographical Distribution
-<figure><img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png" 
-title="Percentage of defaulted loans by borrower state" width="500" height="300" /><figcaption>Percentage of defaulted loans by borrower state</figcaption></figure>
+Percentage of defaulted loans by borrower state
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png" 
+title="Percentage of defaulted loans by borrower state" width="500" height="300" />
+Percentage of defaulted loans by CDC state
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo2.png" 
 title="Percentage of defaulted loans by CDC state" width="500" height="300" />
+
+### Distribution of Gross Approval
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/gross_approval.png" 
+ width="500" height="300" />
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/log_gross.png" 
+ width="500" height="300" />
+
+### Feature Correlation
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/corr.png" 
+ width="500" height="300" />
