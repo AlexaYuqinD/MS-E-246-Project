@@ -40,13 +40,22 @@ Including dropping data, handling missing values, adding features, data transfor
  width="500" height="370" />
 
 
+  Best hyperparameters of DNN picked by random search
+
+
+  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.PNG" 
+ width="300" height="200" />
+
+
+
   Feature Importance of LightGBM Classifier
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
  width="450" height="320" />
 
-  Best hyperparameters of DNN picked by random search
+## 5. Regression: Modeling Loss at Default
 
+  Performance of all regression models on test set
 
-  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.PNG" 
- width="300" height="220" />
+  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/allreg.PNG" 
+ width="500" height="300" />
