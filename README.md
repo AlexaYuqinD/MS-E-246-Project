@@ -44,7 +44,7 @@ Including dropping data, handling missing values, adding features, data transfor
 
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.PNG" 
- width="300" height="200" />
+ width="300" height="180" />
 
 
 
@@ -58,4 +58,4 @@ Including dropping data, handling missing values, adding features, data transfor
   Performance of all regression models on test set
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/allreg.PNG" 
- width="500" height="300" />
+ width="520" height="300" />
