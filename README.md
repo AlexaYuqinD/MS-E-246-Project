@@ -48,7 +48,7 @@ Including dropping data, handling missing values, adding features, data transfor
 
 
 
-  Feature Importance of LightGBM Classifier
+  Feature importance of LightGBM Classifier
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
  width="450" height="320" />
@@ -58,4 +58,24 @@ Including dropping data, handling missing values, adding features, data transfor
   Performance of all regression models on test set
 
   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/allreg.PNG" 
- width="520" height="280" />
+ width="530" height="280" />
+
+  Feature importance of LightGBM Regressor
+
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_reg.png" 
+ width="450" height="320" />
+
+## 6. Portfolio Simulation
+
+### Generating Samples
+To formulate the portfolio, we set a date 2006-02-15 as the start of our observation
+period and randomly select 500 loans from the test set that had not defaulted or paid
+in full before that date.
+
+### Loan Simulation
+
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim1.png" 
+ width="400" height="250" />
+
+   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/loansim2.png" 
+ width="400" height="250" />
