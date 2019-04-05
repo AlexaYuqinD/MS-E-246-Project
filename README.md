@@ -15,12 +15,15 @@ US Small Business Administration between 1990 and 2014.
 </p>
 
 ### Geographical Distribution
-Percentage of defaulted loans by borrower state
+<p align="center">Percentage of defaulted loans by borrower state</p>
+
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo1.png" 
 title="Percentage of defaulted loans by borrower state" width="500" height="300" />
 </p>
-Percentage of defaulted loans by CDC state
+
+<p align="center">Percentage of defaulted loans by CDC state</p>
+
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/geo2.png" 
 title="Percentage of defaulted loans by CDC state" width="500" height="300" />
@@ -49,15 +52,17 @@ Including dropping data, handling missing values, adding features, data transfor
  width="500" height="370" />
 </p>
 
-  Best hyperparameters of DNN picked by random search
+<br>
+  <p align="center">Best hyperparameters of DNN picked by random search</p>
 
   <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.PNG" 
  width="300" height="180" />
 </p>
 
+<br>
 
-  Feature importance of LightGBM Classifier
+  <p align="center">Feature importance of LightGBM Classifier</p>
   <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
  width="450" height="340" />
@@ -65,16 +70,20 @@ Including dropping data, handling missing values, adding features, data transfor
 
 ## 5. Regression: Modeling Loss at Default
 
-  Performance of all regression models on test set
+<p align="center">Performance of all regression models on test set</p>
+
   <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/allreg.PNG" 
  width="530" height="270" />
 </p>
-  Feature importance of LightGBM Regressor
+<br>
+  <p align="center">Feature importance of LightGBM Regressor</p>
+
   <p align="center">
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_reg.png" 
  width="430" height="320" />
 </p>
+
 ## 6. Portfolio Simulation
 
 ### Generating Samples
@@ -99,8 +108,9 @@ Note: Distribution over 1000 simulations
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/portsim5.png" 
  width="390" height="250" />
 </p>
+<br>
+  <p align="center">VaR and Average VaR of portfolio loss</p>
 
-  VaR and Average VaR of portfolio loss
   <p align="center">
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/var.PNG" 
  width="350" height="100" />
@@ -113,7 +123,7 @@ Note: Distribution over 1000 simulations
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche15.png" 
  width="390" height="250" />
 
-   <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche21.png" 
+ <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche21.png" 
  width="390" height="250" />
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche25.png" 
  width="390" height="250" />
