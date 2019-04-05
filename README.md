@@ -38,3 +38,7 @@ Including dropping data, handling missing values, adding features, data transfor
 ## 4. Classification: Modeling Default Probability
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/roc.png" 
  width="500" height="370" />
+
+Feature Importance of LightGBM Classifier
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/feature_class.png" 
+ width="400" height="300" />
