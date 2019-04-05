@@ -10,7 +10,7 @@ US Small Business Administration between 1990 and 2014.
 ## 2. Exploratory Data Analysis
 ### Missing Data
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/missing.png" 
- width="500" height="400" />
+ width="400" height="250" />
 ### Geographical Distribution
 Percentage of defaulted loans by borrower state
 
@@ -30,4 +30,11 @@ title="Percentage of defaulted loans by CDC state" width="500" height="300" />
 
 ### Feature Correlation
 <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/corr.png" 
+ width="500" height="400" />
+
+## 3. Data Preprocessing
+Including dropping data, handling missing values, adding features, data transformation, oversampling (RandomOversampler & SMOTE), and train-dev-test split.
+
+## 4. Classification: Modeling Default Probability
+<img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/roc.png" 
  width="500" height="400" />
