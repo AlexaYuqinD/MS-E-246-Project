@@ -122,7 +122,6 @@ Note: Distribution over 1000 simulations
  width="390" height="250" />
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche15.png" 
  width="390" height="250" />
-
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche21.png" 
  width="390" height="250" />
  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/tranche25.png" 
