@@ -46,5 +46,7 @@ Including dropping data, handling missing values, adding features, data transfor
  width="450" height="320" />
 
   Best hyperparameters of DNN picked by random search
-  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.png" 
+
+
+  <img src="https://github.com/AlexaYuqinD/MS-E-246-Project/blob/master/images/hyper.PNG" 
  width="300" height="220" />
